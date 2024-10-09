@@ -18,12 +18,14 @@ Resume Analysis: Get suggestions for improving resume content and formatting.
 Networking Tools: Expand professional networks with integrated networking features.
 Freelance Opportunities: Find freelance jobs and projects aligned with user skills.
 Career Resources: Explore a collection of articles, tutorials, and guides on IT career development.
+
 Getting Started:
 Clone the Repository: git clone https://github.com/yourusername/TechResumePro.git
 Navigate to Project Directory: cd TechResumePro
 Install Dependencies: pip install -r requirements.txt
 Run Migrations: python manage.py migrate
 Start the Server: python manage.py runserver
+
 Contributing:
 We welcome contributions! Please read our Contributing Guide for more details on our code of conduct and the process for submitting pull requests.
  
