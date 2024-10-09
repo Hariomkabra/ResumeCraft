@@ -1,0 +1,38 @@
+{% extends "core/base.html" %}
+{%load static%}
+                
+{%block content%}
+<div class="mt-5 ">
+   <div class='text-center'>
+    <img src="{% static "core/images/tony.jpg" %}" alt ="Profile picture" resize=""
+    class="img-thumbnail" width="200xpx" height="150px" >
+   </div>
+    <div class="mt-5 text-white mx-5 text-justify "> 
+        <h1 class="font-weigt-bold .satisfy-regular">Hello,</h1>
+        <div class="px-4" style ='line-height:2rem;' >
+            <P style="text-indent:100px;"> I am <b 
+                class="text-warning">Tony Stark</b>
+                I am Tony Stark, an aspiring AI and Data Science professional currently pursuing a B.Tech with a specialization in 
+                Artificial Intelligence and Data Science. Equipped with robust technical skills in Python, HTML, Java, CSS, Django,
+                 Deep Learning, and Machine Learning.<p> Passionate about developing innovative AI-driven solutions and enhancing
+                     data-driven decision-making processes.<b class="text-warning">Experienced in</b>,
+                creating dynamic web applications and leveraging advanced machine learning algorithms 
+                creating dynamic web applications and leveraging advanced machine learning algorithms 
+                to solve real-world problems. Adept at collaborating in team environments and continuously 
+                learning emerging technologies to stay ahead in the field.</P> <p> I actively participate in AI 
+                and Data Science communities, contributing to open-source projects and staying updated with
+                he latest industry trends. I am also involved in organizing workshops and seminars to spread 
+                knowledge about AI and its potential to transform industries.</p>
+
+            </p>
+        </div>
+    </div>
+    <div class ="text-center">
+        <a href ="{% url 'contact'%}" class='btn btn.outline-warning my-3 mr-5  a.nav-link '>Hire me</a>
+        <a href ="{% url 'contact'%}" class='btn btn.outline-info my-3  a.nav-link '>Contact </a>
+    </div>
+
+
+</div>
+
+{% endblock content%}

@@ -1,0 +1,47 @@
+/* Font*/ 
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+html,
+body {
+    height:100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+  
+  /* service Icon Color */
+  .i-color {
+    color: chartreuse;
+}
+
+
+
+  /* service Button Color */
+  .ss-color {
+    background-color: silver;
+  }
+
+
+  a.nav-link {
+    color: whitesmoke;
+}
+
+  a.nav-link:Hover {
+    color: black; 
+    background-color: #e9cd79;
+}
+
+  a.nav-link.active {
+    color: black; 
+    background-color: #e9cd79;
+    font-weight: bold;
+}
+
+
+
+

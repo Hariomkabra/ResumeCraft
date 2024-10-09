@@ -1,0 +1,16 @@
+{%  load static%}
+
+<div class ="border-right border-warning h-100"> 
+    <div class ="text-center">
+        <img src={%static 'core/images/tony.jpg'%} alt='Profile pic' class="img-fluid rounded-circle mt-5"
+         width="100px" height="100px">
+         <h3 class="text-white mt-3 .satisfy-regular">Tony Stark </h3>
+    </div>
+    <hr class ="border-light</"hr>
+    <nav class = "nav flex-column text-center">
+        <a href="{% url 'home' %}"class="nav-link a.nav-link{{home}} ">Home</a>
+        <a href="{% url 'services' %}" class="nav-link a.nav-link{{services}}">Services</a>
+        <a href="{% url 'skill' %}" class="nav-link a.nav-link{{skill}}">Skill</a>
+        <a href="{% url 'contact' %}" class="nav-link a.nav-link{{contact}}">Contact</a>
+    </nav>
+</div>
